@@ -1,0 +1,9 @@
+---
+- hosts: all
+
+  tasks:
+  - name: kreiranje prazen fajl vo vm1 i vm2
+    file:
+      path: "/home/test_file.txt"
+      state: touch
+    become: yes
