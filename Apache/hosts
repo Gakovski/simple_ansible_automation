@@ -1,0 +1,7 @@
+[apache]
+
+my_ubuntu_server ansible_host=192.168.56.4 ansible_ssh_user=user1
+
+[apache:vars]
+
+ansible_password=p@ssword
